@@ -90,35 +90,42 @@ main {
     margin-top: 47px;
 }
 
-#reasons    {
+#reasons {
     text-align: center;
     width: 90%;
-    margin-top:  20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
+    margin: 20px auto;
 }
 
-#reasons > h2   {
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
     font-size: 280%;
 }
 
-#benefits-physical benefits-mental {
+#benefits-physical>div, #benefits-mental>div {
     line-height: 20px;
     margin: 20px;
 }
 
-#benefits-physical > h3   {
+#benefits p     {
+    padding: 0 20px;
+}
+
+#benefits-physical>h3 {
     text-align: left;
 }
 
-#benefits-mental > h3   {
-    text-align:  left;
+#benefits-mental>h3 {
+    text-align: left;
 }
 
-hr  {
+hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
+}
+
+#heart   {
+    position: absolute;
 }
 
 /* Hero section */
